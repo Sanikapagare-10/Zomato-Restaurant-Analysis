@@ -1,0 +1,8 @@
+_pycache_/
+.ipynb_checkpoints/
+*.pyc
+*.pkl
+.env
+.vscode/
+*.csv
+*.pkl
