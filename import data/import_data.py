@@ -9,8 +9,7 @@ except FileNotFoundError:
 df.columns = df.columns.str.replace(r'[\(\)]', '', regex=True).str.strip('')
 
 print("2. Connecting to local MySQL Instance...")
-conn = mysql.connector.connect
-(
+conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="S@nika105",  
